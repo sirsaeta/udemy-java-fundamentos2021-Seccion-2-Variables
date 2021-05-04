@@ -19,5 +19,12 @@ public class Main {
         System.out.println(miVariableString+miVariableEntera);
         miVariableString = "Adios Saeta";
         System.out.println(miVariableString);
+
+        //var - Inferencia de tipos en java
+        var miVariableEntera2 = 15;
+        System.out.println(miVariableEntera2);
+        var miVariableCadena2 = "Nueva Cadena";
+        System.out.println(miVariableCadena2);
+        System.out.println("miVariableCadena2 = " + miVariableCadena2);
     }
 }
