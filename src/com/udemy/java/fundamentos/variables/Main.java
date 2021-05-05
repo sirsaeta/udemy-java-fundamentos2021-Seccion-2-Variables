@@ -26,5 +26,13 @@ public class Main {
         var miVariableCadena2 = "Nueva Cadena";
         System.out.println(miVariableCadena2);
         System.out.println("miVariableCadena2 = " + miVariableCadena2);
+
+        //Valores permitidos en el nombre de variables
+        var miVariable = 1;
+        var _miVariable = 1;
+        var $miVariable = 1;
+        //var áVariable = 1;// no se recomienda utilizar pero se puede
+        //var #miVariable = 1; no se puede utilizar caracteres especiales
+        // var 1miVariable = 1; no se permite iniciar con numero
     }
 }
