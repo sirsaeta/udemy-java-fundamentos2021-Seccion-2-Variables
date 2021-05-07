@@ -28,9 +28,9 @@ public class Main {
         System.out.println("miVariableCadena2 = " + miVariableCadena2);
 
         //Valores permitidos en el nombre de variables
-        var miVariable = 1;
-        var _miVariable = 1;
-        var $miVariable = 1;
+        //var miVariable = 1;
+        //var _miVariable = 1;
+        //var $miVariable = 1;
         //var áVariable = 1;// no se recomienda utilizar pero se puede
         //var #miVariable = 1; no se puede utilizar caracteres especiales
         // var 1miVariable = 1; no se permite iniciar con numero
@@ -48,6 +48,15 @@ public class Main {
         System.out.println(i + j + usuario);//primero realiza la suma por estar a la izquierda y luego concatena
         System.out.println(usuario + i + j);//si la primera es una cadena el resto
         System.out.println(usuario + (i + j));//los parentesis modifica la prioridad primero sumando y luego concatena
+
+        //Caracteres especiales
+        var nombre = "Karla";
+        System.out.println("Nueva Linea: \n" + nombre);
+        System.out.println("Tabulador: \t" + nombre);
+        System.out.println("Retroceso: \b" + nombre);
+        System.out.println("Retroceso: \b\b" + nombre);
+        System.out.println("Comilla simple: '" + nombre + "'");
+        System.out.println("Comilla doble: \"" + nombre + "\"");
 
     }
 }
